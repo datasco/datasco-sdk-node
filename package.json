@@ -1,6 +1,6 @@
 {
   "name": "@datasco/sdk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Datasco API SDK for Node.js to collect any data from any website",
   "main": "src/index.js",
   "files": [
