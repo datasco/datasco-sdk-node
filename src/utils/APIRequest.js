@@ -12,7 +12,6 @@ module.exports = (BASE_URL) => async ({ route, method, body, API_KEY }) => {
 	})
 
 	const result = await resp.json()
-	//console.log(result)
 
 	return result
 }

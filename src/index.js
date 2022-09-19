@@ -7,7 +7,7 @@ const ActionsTool = require('./controller/tools/ActionsTool')
 // Types
 const DataCategory = require('./types/DataCategory')
 
-exports = {
+module.exports = {
 	// API
 	API: APIController,
 

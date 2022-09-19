@@ -1,3 +1,4 @@
+const Result = require("../types/Result")
 const Page = require("../types/Page")
 const ITool = require("./tools/ITool")
 
@@ -50,7 +51,7 @@ module.exports = class GatherController {
 			}
 		}
 
-		let result = await this.fetch({
+		let result = new Result(await this.fetch({
 			route: '/gather',
 			method: 'POST',
 			body: {
@@ -59,7 +60,7 @@ module.exports = class GatherController {
 				tools: _tools
 			},
 			API_KEY: this.API_KEY
-		})
+		}))
 
 		let pages = {}
 		// One URL (String)

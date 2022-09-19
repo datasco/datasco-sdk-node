@@ -4,14 +4,14 @@ module.exports = class Page {
 	#html = null
 	#document = null
 
-	constructor({ result, log, error }) {
+	constructor({  data, log, error }) {
 		this.log = log
 		this.error = error
 
 		// Result is has HTML
-		if(result) {
-			this.#html = result
-			this.#document = parse(result)
+		if(data) {
+			this.#html = data
+			this.#document = parse(data)
 		}
 	}
 
