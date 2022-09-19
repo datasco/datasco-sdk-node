@@ -1,0 +1,35 @@
+{
+  "name": "@datasco/sdk",
+  "version": "1.0.0",
+  "description": "Datasco API SDK for Node.js to collect any data from any website",
+  "main": "src/index.js",
+  "files": [
+    "src/*.js"
+  ],
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datasco/datasco-sdk-node.git"
+  },
+  "keywords": [
+    "datasco",
+    "api",
+    "sdk",
+    "parsing",
+    "collecting",
+    "gathering",
+    "crawling"
+  ],
+  "author": "datasco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/datasco/datasco-sdk-node/issues"
+  },
+  "homepage": "https://github.com/datasco/datasco-sdk-node#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.7",
+    "node-html-parser": "^6.0.0"
+  }
+}
