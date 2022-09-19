@@ -4,7 +4,7 @@
   "description": "Datasco API SDK for Node.js to collect any data from any website",
   "main": "src/index.js",
   "files": [
-    "src/*.js"
+    "src/*"
   ],
   "scripts": {
     "test": "node test/index.js"
